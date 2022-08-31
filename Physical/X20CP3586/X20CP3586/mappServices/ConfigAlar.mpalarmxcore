@@ -2,6 +2,106 @@
 <?AutomationStudio FileVersion="4.9"?>
 <Configuration>
   <Element ID="gAlarmXCore" Type="mpalarmxcore">
+    <Group ID="mapp.AlarmX.Core">
+      <Group ID="Mapping">
+        <Group ID="[0]">
+          <Property ID="Alarm" Value="High Temperature1#HighHigh" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="StatusIdle" />
+          </Selector>
+        </Group>
+        <Group ID="[1]">
+          <Property ID="Alarm" Value="High Temperature2#HighHigh" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="StatusIdle" />
+          </Selector>
+        </Group>
+        <Group ID="[2]">
+          <Property ID="Alarm" Value="High Temperature3#HighHigh" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="StatusIdle" />
+          </Selector>
+        </Group>
+        <Group ID="[3]">
+          <Property ID="Alarm" Value="High Temperature4#HighHigh" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="StatusIdle" />
+          </Selector>
+        </Group>
+        <Group ID="[4]">
+          <Property ID="Alarm" Value="X20BC8083" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="StatusIdle" />
+          </Selector>
+        </Group>
+        <Group ID="[5]">
+          <Property ID="Alarm" Value="X20PS9400a" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="StatusIdle" />
+          </Selector>
+        </Group>
+        <Group ID="[6]">
+          <Property ID="Alarm" Value="X20DOF322" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="StatusIdle" />
+          </Selector>
+        </Group>
+        <Group ID="[7]">
+          <Property ID="Alarm" Value="X20cAT6402" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="StatusIdle" />
+          </Selector>
+        </Group>
+        <Group ID="[8]">
+          <Property ID="Alarm" Value=" Fan failure1" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="StatusIdle" />
+          </Selector>
+        </Group>
+        <Group ID="[9]">
+          <Property ID="Alarm" Value=" Fan failure2" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="StatusIdle" />
+          </Selector>
+        </Group>
+        <Group ID="[10]">
+          <Property ID="Alarm" Value=" Fan failure3" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="StatusIdle" />
+          </Selector>
+        </Group>
+        <Group ID="[11]">
+          <Property ID="Alarm" Value=" Fan failure4" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="StatusIdle" />
+          </Selector>
+        </Group>
+        <Group ID="[12]">
+          <Property ID="Alarm" Value="Sensor failure1" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="StatusIdle" />
+          </Selector>
+        </Group>
+        <Group ID="[13]">
+          <Property ID="Alarm" Value="Sensor failure2" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="StatusIdle" />
+          </Selector>
+        </Group>
+        <Group ID="[14]">
+          <Property ID="Alarm" Value="Sensor failure3" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="StatusIdle" />
+          </Selector>
+        </Group>
+        <Group ID="[15]">
+          <Property ID="Alarm" Value="Sensor failure4" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="StatusIdle" />
+          </Selector>
+        </Group>
+      </Group>
+    </Group>
     <Group ID="mapp.AlarmX.Core.Configuration">
       <Group ID="[0]">
         <Property ID="Name" Value="High Temperature1" />
@@ -29,6 +129,10 @@
             <Property ID="MonitoredPV" Value="::gTemp2" />
             <Selector ID="HighLimitEnable" Value="Dynamic">
               <Property ID="LimitPV" Value="::Alarms.TempAlarmLimit" />
+              <Selector ID="HighHighLimitEnable" Value="Dynamic">
+                <Property ID="LimitPV" Value="::Alarms.TempMaxAlarmLimit" />
+                <Property ID="LimitText" Value="HighHigh" />
+              </Selector>
             </Selector>
           </Group>
         </Selector>
@@ -42,6 +146,10 @@
             <Property ID="MonitoredPV" Value="::gTemp3" />
             <Selector ID="HighLimitEnable" Value="Dynamic">
               <Property ID="LimitPV" Value="::Alarms.TempAlarmLimit" />
+              <Selector ID="HighHighLimitEnable" Value="Dynamic">
+                <Property ID="LimitPV" Value="::Alarms.TempMaxAlarmLimit" />
+                <Property ID="LimitText" Value="HighHigh" />
+              </Selector>
             </Selector>
           </Group>
         </Selector>
@@ -55,6 +163,10 @@
             <Property ID="MonitoredPV" Value="::gTemp4" />
             <Selector ID="HighLimitEnable" Value="Dynamic">
               <Property ID="LimitPV" Value="::Alarms.TempAlarmLimit" />
+              <Selector ID="HighHighLimitEnable" Value="Dynamic">
+                <Property ID="LimitPV" Value="::Alarms.TempMaxAlarmLimit" />
+                <Property ID="LimitText" Value="HighHigh" />
+              </Selector>
             </Selector>
           </Group>
         </Selector>
