@@ -12,6 +12,8 @@ PROGRAM _INIT
 	mpAlarmXlist.UIConnect := ADR(mpAlarmXlistConnect);
 	mpAlarmXlist.UISetup := MpAlarmXlistSetup;
 	//initialization
+	Temp1Alarm;
+	Temp2Alarm;
 END_PROGRAM
 
 PROGRAM _CYCLIC
@@ -19,6 +21,16 @@ PROGRAM _CYCLIC
 	MpAlarmXCore_0();
 	MpAlarmXHistory_0();
 	mpAlarmXlist();
+	IF MpAlarmXCheckReaction(gAlarmXCore,'StatusIdle') THEN
+		Automatic_work := FALSE;
+		Manual_work := FALSE;
+		TuneEnable := FALSE;
+		gStart := FALSE;
+		gSTOP := FALSE;
+		gError := FALSE;
+		STATUS := STATE_IDLE;
+	END_IF;
+		
 	Alarms.Pending := MpAlarmXCore_0.PendingAlarms;
 	Alarms.Active :=  MpAlarmXCore_0.ActiveAlarms;
 	Alarms.ActiveAlarms := '';
