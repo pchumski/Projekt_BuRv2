@@ -12,6 +12,10 @@
             <Property ID="MonitoredPV" Value="::gTemp1" />
             <Selector ID="HighLimitEnable" Value="Dynamic">
               <Property ID="LimitPV" Value="::Alarms.TempAlarmLimit" />
+              <Selector ID="HighHighLimitEnable" Value="Dynamic">
+                <Property ID="LimitPV" Value="::Alarms.TempMaxAlarmLimit" />
+                <Property ID="LimitText" Value="HighHigh" />
+              </Selector>
             </Selector>
           </Group>
         </Selector>

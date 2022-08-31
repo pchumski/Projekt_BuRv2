@@ -8,13 +8,13 @@ TYPE
 		STEP3,
 		STEP4,
 		STEP5
-	);
+		);
 	ZONE_WORKING_STATE : 
 		( (*Working state of each zone*)
 		STATE_IDLE_ZONE,
 		STATE_HEATING,
 		STATE_COOLING
-	);
+		);
 	MACHINE_WORKING_STATE : 
 		( (*Working state of whole machine*)
 		STATE_IDLE,
@@ -23,7 +23,7 @@ TYPE
 		STATE_WORKING_AUTOMATIC,
 		STATE_ERROR,
 		STATE_STOP
-	);
+		);
 	MACHINE_PARAMETERS : 	STRUCT  (*Machine parameters - structed*)
 		Temp1 : REAL;
 		Temp2 : REAL;
@@ -50,7 +50,8 @@ TYPE
 		third_module : BOOL;
 		second_module : BOOL;
 		first_module : BOOL;
-		TempAlarmLimit : REAL := 50;
+		TempMaxAlarmLimit : REAL := 50;
+		TempAlarmLimit : REAL := 40;
 		ActiveAlarms : STRING[512] := 'test';
 	END_STRUCT;
 	OEE_Struct : 	STRUCT 
