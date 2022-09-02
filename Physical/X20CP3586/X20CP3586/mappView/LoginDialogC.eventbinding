@@ -90,5 +90,15 @@
         </Sequence>
       </EventHandler>
     </EventBinding>
+    <EventBinding id="LoginDialogC.NaviBtnUserPage.Click">
+      <Source xsi:type="widgets.brease.NavigationButton.Event" contentRefId="LoginDialogC" widgetRefId="NaviBtnUserPage" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="LoginDialogP" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
   </Bindings>
 </EventBindingSet>
