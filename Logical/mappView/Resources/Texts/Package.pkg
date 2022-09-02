@@ -20,5 +20,6 @@
     <Object Type="File">TunningSetpointsDialogTexts.tmx</Object>
     <Object Type="File">AuditPage.tmx</Object>
     <Object Type="Package">AuditTexts</Object>
+    <Object Type="File">UserPage.tmx</Object>
   </Objects>
 </Package>

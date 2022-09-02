@@ -2,95 +2,109 @@
 <tmx version="1.4">
   <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
     <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
-    <prop type="x-BR-TS:Namespace">IAT/LoginDialogC</prop>
+    <prop type="x-BR-TS:Namespace">IAT/UserPage</prop>
   </header>
   <body>
-    <tu tuid="password">
-      <tuv xml:lang="de">
-        <seg>Passwort</seg>
-      </tuv>
-      <tuv xml:lang="pl">
-        <seg>Hasło</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>Password </seg>
-      </tuv>
-    </tu>
-    <tu tuid="Login">
-      <tuv xml:lang="de">
-        <seg>Anmeldung</seg>
-      </tuv>
-      <tuv xml:lang="pl">
-        <seg>Zaloguj się </seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>Login</seg>
-      </tuv>
-    </tu>
-    <tu tuid="failed">
-      <tuv xml:lang="de">
-        <seg>Falsche Anmeldeinformationen</seg>
-      </tuv>
-      <tuv xml:lang="pl">
-        <seg>Niepoprawne dane logowania</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>Set User failed</seg>
-      </tuv>
-    </tu>
-    <tu tuid="successful">
-      <tuv xml:lang="de">
-        <seg>Anmeldung erfolgreich</seg>
-      </tuv>
-      <tuv xml:lang="pl">
-        <seg>Logowanie udane</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>Login successful</seg>
-      </tuv>
-    </tu>
-    <tu tuid="AuthorisationF">
-      <tuv xml:lang="de">
-        <seg>Autorisierung fehlgeschlagen</seg>
-      </tuv>
-      <tuv xml:lang="pl">
-        <seg>Autoryzacja nie powiodła się</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>Authorisation failed</seg>
-      </tuv>
-    </tu>
-    <tu tuid="Username">
+    <tu tuid="UserName">
       <tuv xml:lang="de">
         <seg>Nutzername</seg>
       </tuv>
       <tuv xml:lang="pl">
-        <seg>Użytkownik </seg>
+        <seg>Nazwa użytkownika</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Username</seg>
+        <seg>User name</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
       </tuv>
     </tu>
-    <tu tuid="LoginDialog">
+    <tu tuid="FullName">
       <tuv xml:lang="de">
-        <seg>Anmeldung</seg>
+        <seg>Vollständiger Name</seg>
       </tuv>
       <tuv xml:lang="pl">
-        <seg>Logowanie</seg>
+        <seg>Pełna nazwa</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Login</seg>
+        <seg>Full name</seg>
       </tuv>
     </tu>
-    <tu tuid="btnUserPage">
+    <tu tuid="IsAdmin">
       <tuv xml:lang="de">
-        <seg>Einstellungen</seg>
+        <seg>Admin</seg>
       </tuv>
       <tuv xml:lang="pl">
-        <seg>Ustawienia</seg>
+        <seg>Admin</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Settings</seg>
+        <seg>Admin</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IsLocked">
+      <tuv xml:lang="de">
+        <seg>Gesperrt</seg>
+      </tuv>
+      <tuv xml:lang="pl">
+        <seg>Zablokowany</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Locked</seg>
+      </tuv>
+    </tu>
+    <tu tuid="LastLogin">
+      <tuv xml:lang="de">
+        <seg>Letzte Anmeldung</seg>
+      </tuv>
+      <tuv xml:lang="pl">
+        <seg>Ostatnie logowanie</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Last login</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Roles">
+      <tuv xml:lang="de">
+        <seg>Rolle</seg>
+      </tuv>
+      <tuv xml:lang="pl">
+        <seg>Role</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Roles</seg>
+      </tuv>
+    </tu>
+    <tu tuid="DeleteUserBtn">
+      <tuv xml:lang="de">
+        <seg>Benutzer löschen</seg>
+      </tuv>
+      <tuv xml:lang="pl">
+        <seg>Usuń użytkownika</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Delete user</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AddUserBtn">
+      <tuv xml:lang="de">
+        <seg>Nutzer hinzufügen</seg>
+      </tuv>
+      <tuv xml:lang="pl">
+        <seg>Dodaj użytkownika</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Add user</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ModifyUserBtn">
+      <tuv xml:lang="de">
+        <seg>Benutzer bearbeiten</seg>
+      </tuv>
+      <tuv xml:lang="pl">
+        <seg>Edytuj użytkownika</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Modify user</seg>
       </tuv>
     </tu>
   </body>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="UserPage" height="910" width="1720" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.UserList" id="UserList1" top="100" left="100" width="1520" height="430" zIndex="0" headerHeight="50" nextText="$IAT/AlarmPage/NextListButton" previousText="$IAT/AlarmPage/PreviousListButton" backColor="rgba(255, 245, 238, 1)" headerBackColor="rgba(255, 204, 153, 1)" headerFontSize="18px" backColorSelectedRow="rgba(255, 136, 0, 1)" fontSize="16px" sortingButtonActiveColor="rgba(255, 204, 153, 1)" headerCellPadding="0px 8px">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.UserListItem" id="UserName" width="280" zIndex="0" text="$IAT/UserPage/UserName" />
+        <Widget xsi:type="widgets.brease.UserListItem" id="FullName" width="280" zIndex="1" columnType="FullName" text="$IAT/UserPage/FullName" />
+        <Widget xsi:type="widgets.brease.UserListItem" id="IsAdmin" width="180" zIndex="2" columnType="IsAdmin" text="$IAT/UserPage/IsAdmin" />
+        <Widget xsi:type="widgets.brease.UserListItem" id="IsLocked" width="220" zIndex="3" columnType="IsLocked" text="$IAT/UserPage/IsLocked" />
+        <Widget xsi:type="widgets.brease.UserListItem" id="LastLogin" width="330" zIndex="4" columnType="LastLogin" text="$IAT/UserPage/LastLogin" />
+        <Widget xsi:type="widgets.brease.UserListItem" id="Roles" width="230" zIndex="5" columnType="Roles" text="$IAT/UserPage/Roles" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.Button" id="BtnDeleteUser" top="570" left="1030" width="220" height="40" zIndex="1" text="$IAT/UserPage/DeleteUserBtn" mouseDownTextColor="rgba(255, 140, 0, 1)" mouseDownShadow="1px 1px 8px rgba(58, 58, 58, 0.75)" />
+    <Widget xsi:type="widgets.brease.Button" id="BtnAddUser" top="570" left="470" width="220" height="40" zIndex="2" text="$IAT/UserPage/AddUserBtn" mouseDownTextColor="rgba(255, 140, 0, 1)" mouseDownShadow="1px 1px 8px rgba(58, 58, 58, 0.75)" />
+    <Widget xsi:type="widgets.brease.Button" id="BtnModifyUser" top="570" left="750" width="220" height="40" zIndex="3" text="$IAT/UserPage/ModifyUserBtn" mouseDownTextColor="rgba(255, 140, 0, 1)" mouseDownShadow="1px 1px 8px rgba(58, 58, 58, 0.75)" />
+  </Widgets>
+</Content>

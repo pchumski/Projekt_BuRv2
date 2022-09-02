@@ -8,7 +8,7 @@
 		fontSize="20px" 
 		textColor="#FFFFFF" 
 		headerBorderWidth="0px" 
-		headerBackColor="#3388CC" 
+		headerBackColor="#FF8500" 
 		cornerRadius="8px 8px 0px 0px" 
 		borderWidth="1px" 
 		borderColor="#DDDDDD" 
@@ -44,7 +44,7 @@
 	<!-- version 5.14 configuration dialog style -->
 
 	<Style id="default" xsi:type="system.brease.TableConfigurationDialog"
-		headerBackColor="#3388CC" 
+		headerBackColor="#FF8500" 
 		headerFontSize="20px" 
 		headerTextColor="#FFFFFF" 
 		headerBorderWidth="0px" 
@@ -56,10 +56,10 @@
 	/>
 	
 	<Style id="tableConfigurationDialogStyle" xsi:type="widgets.brease.Rectangle" 
-		lineColor="#3388CC"
+		lineColor="#FF8500"
 	/>
 	<Style id="tableConfigurationDialogStyle" xsi:type="widgets.brease.Image" 
-		imageColor="#3388CC"
+		imageColor="#FF8500"
 	/>
 
 	<Style id="tableConfigurationDialogStyle" xsi:type="widgets.brease.DropDownBox"
@@ -71,7 +71,7 @@
 		backColor="#F6F6F6" 
 		mouseDownBackColor="#EDEDED" 
 		mouseDownBorderWidth="0px 2px 0px 0px" 
-		borderColor="#3388CC" 
+		borderColor="#FF8500" 
 		listBackColor="#F6F6F6" 
 		borderWidth="0px 5px 0px 0px" 
 		mouseDownBorderColor="#3388CC" 

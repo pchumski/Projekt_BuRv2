@@ -10,5 +10,6 @@
     <Object Type="File">report.mpreportcore</Object>
     <Object Type="File">RecipeCon.mprecipecsv</Object>
     <Object Type="File">ConfigFile.mpfilemanagerui</Object>
+    <Object Type="File">ConfigUser.mpuserx</Object>
   </Objects>
 </Package>

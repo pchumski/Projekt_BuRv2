@@ -12,6 +12,7 @@
     <Page refId="OEE" />
     <Page refId="FILEMNG" />
     <Page refId="SERVICE" />
+    <Page refId="UserPage" />
   </Pages>
   <Navigations />
   <BindingsSets>
@@ -48,6 +49,7 @@
     <EventBindingsSet refId="ConfirmDeleteItemsContent_eventbinding" />
     <EventBindingsSet refId="AUDIT_eventbinding" />
     <EventBindingsSet refId="ConfirmOverwriteContent_eventbinding" />
+    <EventBindingsSet refId="UserPage_eventbinding" />
   </EventBindingsSets>
   <Dialogs>
     <Dialog refId="LoginDialogP" />
@@ -88,6 +90,7 @@
     <Content refId="ConfirmOverwriteContent" />
     <Content refId="RecipeDelConfirm" />
     <Content refId="RecipeSaveContent" />
+    <Content refId="UserPage" />
   </Contents>
   <SnippetsSets />
   <VariablesSets>
