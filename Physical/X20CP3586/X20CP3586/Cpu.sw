@@ -92,5 +92,9 @@
     <LibraryObject Name="aruser" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="asusb" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="MpUserX" Source="Libraries.MpUserX.lby" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="ExOS" Source="Libraries.ExOS.lby" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="ExDeploy" Source="Libraries.ExDeploy.lby" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="ExData" Source="Libraries.ExData.lby" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="AsIoTime" Source="Libraries.AsIoTime.lby" Memory="UserROM" Language="binary" Debugging="true" />
   </Libraries>
 </SwConfiguration>

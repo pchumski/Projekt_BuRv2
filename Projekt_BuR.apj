@@ -8,6 +8,7 @@
   <Project StoreRuntimeInProject="false" />
   <Variables DefaultInitValue="0" DefaultRetain="false" DefaultVolatile="true" />
   <TechnologyPackages>
+    <exosTechnology Version="2.1.0" />
     <mapp Version="5.18.0" />
     <mappCockpit Version="5.18.0" />
     <mappControl Version="5.18.0" />
