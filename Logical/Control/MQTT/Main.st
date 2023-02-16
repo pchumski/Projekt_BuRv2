@@ -16,7 +16,6 @@ PROGRAM _CYCLIC
 	TopicCounter();
 	IotMqttClient_0();
 	IotMqttPublish_0();
-	
 END_PROGRAM
 
 PROGRAM _EXIT
