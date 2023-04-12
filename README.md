@@ -1,5 +1,5 @@
 # Kontynuacja projektu i rozwijaniego na stażu w B&R
-Ostatni update 11.2022
+Ostatni update 02.2023
 ## B&R Poznań - praktyki 2022 (sierpień)
 ### Obiekt temperaturowy z akwizycją danych do chmury
 #### Temperature object with data acquisition to the cloud
