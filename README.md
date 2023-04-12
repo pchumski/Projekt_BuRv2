@@ -1,4 +1,4 @@
-# Kontynuacja projektu i rozwijaniego na stażu w B&R
+# Kontynuacja projektu i rozwijanie go podczas stażu w B&R
 Ostatni update 02.2023
 ## B&R Poznań - praktyki 2022 (sierpień)
 ### Obiekt temperaturowy z akwizycją danych do chmury
