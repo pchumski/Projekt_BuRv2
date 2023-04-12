@@ -1,9 +1,6 @@
-# Kontynuacja projektu i rozwijaniego na stażu w B&R
-Ostatni update 11.2022
-
-## B&R Poznań - praktyki 2022 (sierpień)
-### Obiekt temperaturowy z akwizycją danych do chmury
-#### Temperature object with data acquisition to the cloud
+# B&R Poznań - praktyki 2022
+## Obiekt temperaturowy z akwizycją danych do chmury
+### Temperature object with data acquisition to the cloud
 ***Cel:*** Stworzenie projektu prezentującego możliwości sterowania temperaturą, komunikacji z systemami zewnętrznymi poprzez protokół MQTT, wizualizacji mappView oraz wizualizacji poprzez zewnętrzne systemy dashboardowe.
 
 **Zasoby projektowe:**
